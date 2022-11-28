@@ -1,0 +1,175 @@
+* {
+    font-family: arial, sans-serif;
+    margin: 0;
+}
+
+.wrapper{
+    width: 100%;
+    margin: 0 auto;
+    min-height: calc(93.5vh - 40px);
+}
+.right
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    line-height: 75%;
+
+
+}
+  /*nav and footer styles*/
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer ul,
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    margin-left: 25px;
+    margin-right: 25px;
+
+}
+
+nav ul {
+    margin-top: 15px;
+}
+
+
+nav a,
+footer a,
+i {
+    text-decoration: none;
+    display: block;
+    padding: .5em;
+    color: #000;
+    opacity: 0.75;
+    margin-left: 5px
+
+}
+
+nav a,
+footer a {
+    font-size: 13px;
+
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    background: #e4e4e4;
+
+}
+.footer-links
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 6px;
+}
+p
+{
+    padding: 10px;
+}
+
+
+.sign-in {
+    font-weight: bold;
+    font-size: 13px;
+    border: 1px solid #4285f4;
+    background: -webkit-linear-gradient(top, #4387fd, #4683ea);
+    color: white;
+    cursor: pointer;
+    border-radius: 2px;
+    width: 70px;
+    margin-left: 10px;
+  
+}
+
+
+a:hover {
+    text-decoration: underline;
+
+}
+
+/*Google logo styles*/
+
+.logo-container {
+    display: flex;
+    margin-top: 85px;
+}
+
+.logo {
+    width: 272px;
+    margin: auto;
+}
+    /*input styles*/
+.search-container{
+    display: flex;
+    justify-content: center;
+}
+
+ .search {
+    border: 1px solid #e4e4e4;
+    box-shadow: 2px 2px 3px 1px #e4e4e4;
+    max-width: 550px;
+    height: 40px;
+    border-radius: 2px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: auto;
+}
+input {
+	line-height: 34px;
+    width: 435px;
+    padding: 6px 6px 0px 16px;
+    font-size: 16px;
+    border: none;
+    height: 34px;
+    outline: none;
+}
+
+.search img {
+    position: relative;
+    top: 05px;
+    right: -425px;
+    cursor: pointer
+}
+
+   /*search button styles*/
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    color: #757575;
+    margin-top: 25px;
+    margin-right: 5px;
+    padding: 0 15px;
+    height: 36px;
+    min-width: 50px;
+    text-align: center;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.languages{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 580px;
+    list-style: none;
+    text-decoration: none;
+}
+.languages li{
+    font-size: 13px;
+}
